@@ -4,7 +4,7 @@ const SkinSchema = z.object({
     nome: z.string().min(2),
     tipo: z.enum(["raro", "epico", "lendario", "comum"]), // exemplo, você pode mudar
     preco: z.number().nonnegative(),
-    disponivel: z.boolean(),
+    disponivel: z.string(),
     descricao: z.string().optional(),
 });
 

@@ -4,6 +4,7 @@
   "description": "Aplicativo para dispositivo móvel do TCC de NightFall",
   "main": "index.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +15,10 @@
     "TCC"
   ],
   "author": "Lanna Viana, Karen Yukari",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^3.24.2"
+  }
 }
